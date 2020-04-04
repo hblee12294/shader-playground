@@ -2,12 +2,12 @@ import React from 'react'
 import './App.scss'
 
 import { Layout } from 'commons'
-import { Baisc } from './pages'
+import { SpikySphere } from './pages'
 
 const App = () => {
   return (
     <Layout>
-      <Baisc />
+      <SpikySphere />
     </Layout>
   )
 }

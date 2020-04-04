@@ -1,1 +1,1 @@
-export { Baisc } from './Basic'
+export { SpikySphere } from './SpikySphere'

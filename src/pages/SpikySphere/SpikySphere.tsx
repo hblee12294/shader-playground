@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from 'react'
-import './Basic.scss'
+import './SpikySphere.scss'
 
-import App from 'apps/basic'
+import App from 'apps/SpikySphere'
 
-const Shader: React.FC = () => {
+const SpikySphere: React.FC = () => {
   const rootRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -16,4 +16,4 @@ const Shader: React.FC = () => {
   return <div className="basic" ref={rootRef}></div>
 }
 
-export default Shader
+export default SpikySphere

@@ -4,7 +4,7 @@ import './Layout.scss'
 import { Navigation } from 'baseui/side-navigation'
 
 const Layout: React.FC = ({ children }) => {
-  const [activeItemId, setActiveItemId] = useState('#basic')
+  const [activeItemId, setActiveItemId] = useState('#SpikySphere')
 
   return (
     <div className="layout">
@@ -12,8 +12,8 @@ const Layout: React.FC = ({ children }) => {
         <Navigation
           items={[
             {
-              title: 'Basic',
-              itemId: '#basic',
+              title: 'Spiky Sphere',
+              itemId: '#SpikySphere',
             },
           ]}
           activeItemId={activeItemId}
