@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.scss'
-import { StatefulInput } from 'baseui/input'
 
-import { Layout } from 'common'
+import { Layout } from 'commons'
+import { Baisc } from './pages'
 
 const App = () => {
   return (
     <Layout>
-      <StatefulInput />
+      <Baisc />
     </Layout>
   )
 }
