@@ -1,0 +1,24 @@
+import { Navs } from 'types'
+import { Basic, SpikySphere } from 'pages'
+
+const navs: Navs = [
+  {
+    title: 'Sphere',
+    subNav: [
+      {
+        title: 'Basic Sphere',
+        itemId: '/basic_sphere',
+        exact: true,
+        component: Basic,
+      },
+      {
+        title: 'Spiky Sphere',
+        itemId: '/spiky_sphere',
+        exact: true,
+        component: SpikySphere,
+      },
+    ],
+  },
+]
+
+export default navs

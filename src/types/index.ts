@@ -1,10 +1,17 @@
 import { FC } from 'react'
 import { RouteProps } from 'react-router-dom'
 
-export interface RouteConfig extends RouteProps {
-  path: string
+export interface NavConfig extends RouteProps {
   title: string
-  page: FC
+  itemId?: string
+  component?: FC
+  subNav?: NavConfig[]
+}
+
+export type Navs = NavConfig[]
+
+export interface RouteConfig extends Omit<NavConfig, 'title' | 'subNav'> {
+  itemId: string
 }
 
 export type Routes = RouteConfig[]

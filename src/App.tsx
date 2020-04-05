@@ -10,11 +10,11 @@ const App = () => {
     <Router>
       <Layout>
         <Switch>
-          {routes.map((route) => (
-            <Route key={route.path} path={route.path} exact={route.exact} component={route.page} />
+          {routes.map((nav) => (
+            <Route key={nav.itemId} path={nav.itemId} exact={nav.exact} component={nav.component} />
           ))}
           <Route exact path="/">
-            <Redirect to={routes[0].path} />
+            <Redirect to={routes[0].itemId} />
           </Route>
         </Switch>
       </Layout>

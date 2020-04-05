@@ -3,9 +3,7 @@ import './Layout.scss'
 import { Navigation } from 'baseui/side-navigation'
 import { useHistory, useLocation } from 'react-router-dom'
 
-import { routes } from 'configs'
-
-const ITEMS = routes.map((item) => ({ title: item.title, itemId: item.path }))
+import { navs } from 'configs'
 
 const Layout: React.FC = ({ children }) => {
   const history = useHistory()
@@ -21,7 +19,7 @@ const Layout: React.FC = ({ children }) => {
     <div className="layout">
       <div className="nav">
         <Navigation
-          items={ITEMS}
+          items={navs}
           activeItemId={activeItemId}
           onChange={({ event, item }) => {
             event.preventDefault()
