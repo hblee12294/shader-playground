@@ -7,7 +7,9 @@ const SpikySphere: React.FC = () => {
   const rootRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    const root = rootRef.current as HTMLDivElement
+    const root = rootRef.current
+
+    if (!root) return
 
     const app = new App(root)
     app.init()
