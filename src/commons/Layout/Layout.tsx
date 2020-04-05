@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Layout.scss'
 import { Navigation } from 'baseui/side-navigation'
 import { useHistory, useLocation } from 'react-router-dom'
@@ -11,7 +11,11 @@ const Layout: React.FC = ({ children }) => {
   const history = useHistory()
   const location = useLocation()
 
-  const [activeItemId, setActiveItemId] = useState(location.pathname)
+  const [activeItemId, setActiveItemId] = useState('')
+
+  useEffect(() => {
+    setActiveItemId(location.pathname)
+  }, [location])
 
   return (
     <div className="layout">
