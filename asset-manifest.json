@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.29fa5366.chunk.css",
-    "main.js": "/static/js/main.ad19e09e.chunk.js",
-    "main.js.map": "/static/js/main.ad19e09e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a96114f2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a96114f2.js.map",
-    "static/js/2.4269edfc.chunk.js": "/static/js/2.4269edfc.chunk.js",
-    "static/js/2.4269edfc.chunk.js.map": "/static/js/2.4269edfc.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.892bdb55438d5a7ec170742b19b4ff84.js": "/precache-manifest.892bdb55438d5a7ec170742b19b4ff84.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.29fa5366.chunk.css.map": "/static/css/main.29fa5366.chunk.css.map",
-    "static/js/2.4269edfc.chunk.js.LICENSE.txt": "/static/js/2.4269edfc.chunk.js.LICENSE.txt",
-    "static/media/water.jpg": "/static/media/water.bcfb9394.jpg"
+    "main.css": "/shader-playground/static/css/main.29fa5366.chunk.css",
+    "main.js": "/shader-playground/static/js/main.ad19e09e.chunk.js",
+    "main.js.map": "/shader-playground/static/js/main.ad19e09e.chunk.js.map",
+    "runtime-main.js": "/shader-playground/static/js/runtime-main.2e4a457b.js",
+    "runtime-main.js.map": "/shader-playground/static/js/runtime-main.2e4a457b.js.map",
+    "static/js/2.4269edfc.chunk.js": "/shader-playground/static/js/2.4269edfc.chunk.js",
+    "static/js/2.4269edfc.chunk.js.map": "/shader-playground/static/js/2.4269edfc.chunk.js.map",
+    "index.html": "/shader-playground/index.html",
+    "precache-manifest.cbe38db9301836cc32af5390ab0d316c.js": "/shader-playground/precache-manifest.cbe38db9301836cc32af5390ab0d316c.js",
+    "service-worker.js": "/shader-playground/service-worker.js",
+    "static/css/main.29fa5366.chunk.css.map": "/shader-playground/static/css/main.29fa5366.chunk.css.map",
+    "static/js/2.4269edfc.chunk.js.LICENSE.txt": "/shader-playground/static/js/2.4269edfc.chunk.js.LICENSE.txt",
+    "static/media/water.jpg": "/shader-playground/static/media/water.bcfb9394.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a96114f2.js",
+    "static/js/runtime-main.2e4a457b.js",
     "static/js/2.4269edfc.chunk.js",
     "static/css/main.29fa5366.chunk.css",
     "static/js/main.ad19e09e.chunk.js"
