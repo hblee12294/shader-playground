@@ -1,23 +1,31 @@
 import React, { useState } from 'react'
 import './Layout.scss'
-
 import { Navigation } from 'baseui/side-navigation'
+import { useHistory, useLocation } from 'react-router-dom'
+
+import { routes } from 'configs'
+
+const ITEMS = routes.map((item) => ({ title: item.title, itemId: item.path }))
 
 const Layout: React.FC = ({ children }) => {
-  const [activeItemId, setActiveItemId] = useState('#SpikySphere')
+  const history = useHistory()
+  const location = useLocation()
+
+  const [activeItemId, setActiveItemId] = useState(location.pathname)
 
   return (
     <div className="layout">
       <div className="nav">
         <Navigation
-          items={[
-            {
-              title: 'Spiky Sphere',
-              itemId: '#SpikySphere',
-            },
-          ]}
+          items={ITEMS}
           activeItemId={activeItemId}
-          onChange={({ item }) => setActiveItemId(item.itemId)}
+          onChange={({ event, item }) => {
+            event.preventDefault()
+
+            history.push(item.itemId)
+
+            setActiveItemId(item.itemId)
+          }}
         />
       </div>
       <main className="main">{children}</main>

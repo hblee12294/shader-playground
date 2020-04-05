@@ -11,9 +11,13 @@ const SpikySphere: React.FC = () => {
 
     const app = new App(root)
     app.init()
+
+    return () => {
+      app.dispose()
+    }
   }, [])
 
-  return <div className="basic" ref={rootRef}></div>
+  return <div className="spiky-sphere" ref={rootRef}></div>
 }
 
 export default SpikySphere

@@ -1,4 +1,15 @@
 // Colors
 $base-color: #101010;
-$background-color: #191919;
+$background-color: #202020;
 $font-color: #fff;
+
+// Mixins
+@mixin canvas-root {
+  height: 100%;
+  width: 100%;
+
+  canvas {
+    height: 100%;
+    width: 100%;
+  }
+}
