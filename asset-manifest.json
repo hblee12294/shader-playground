@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/shader-playground/static/css/main.29fa5366.chunk.css",
-    "main.js": "/shader-playground/static/js/main.ecdbe65a.chunk.js",
-    "main.js.map": "/shader-playground/static/js/main.ecdbe65a.chunk.js.map",
+    "main.css": "/shader-playground/static/css/main.7868add1.chunk.css",
+    "main.js": "/shader-playground/static/js/main.45fa1004.chunk.js",
+    "main.js.map": "/shader-playground/static/js/main.45fa1004.chunk.js.map",
     "runtime-main.js": "/shader-playground/static/js/runtime-main.2e4a457b.js",
     "runtime-main.js.map": "/shader-playground/static/js/runtime-main.2e4a457b.js.map",
-    "static/js/2.92a39744.chunk.js": "/shader-playground/static/js/2.92a39744.chunk.js",
-    "static/js/2.92a39744.chunk.js.map": "/shader-playground/static/js/2.92a39744.chunk.js.map",
+    "static/js/2.07a018e0.chunk.js": "/shader-playground/static/js/2.07a018e0.chunk.js",
+    "static/js/2.07a018e0.chunk.js.map": "/shader-playground/static/js/2.07a018e0.chunk.js.map",
     "index.html": "/shader-playground/index.html",
-    "precache-manifest.48beac1931ce1bc57eace86fb7d86108.js": "/shader-playground/precache-manifest.48beac1931ce1bc57eace86fb7d86108.js",
+    "precache-manifest.c7f83c5046297b571c1f014eb0b032b8.js": "/shader-playground/precache-manifest.c7f83c5046297b571c1f014eb0b032b8.js",
     "service-worker.js": "/shader-playground/service-worker.js",
-    "static/css/main.29fa5366.chunk.css.map": "/shader-playground/static/css/main.29fa5366.chunk.css.map",
-    "static/js/2.92a39744.chunk.js.LICENSE.txt": "/shader-playground/static/js/2.92a39744.chunk.js.LICENSE.txt",
+    "static/css/main.7868add1.chunk.css.map": "/shader-playground/static/css/main.7868add1.chunk.css.map",
+    "static/js/2.07a018e0.chunk.js.LICENSE.txt": "/shader-playground/static/js/2.07a018e0.chunk.js.LICENSE.txt",
     "static/media/water.jpg": "/shader-playground/static/media/water.bcfb9394.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2e4a457b.js",
-    "static/js/2.92a39744.chunk.js",
-    "static/css/main.29fa5366.chunk.css",
-    "static/js/main.ecdbe65a.chunk.js"
+    "static/js/2.07a018e0.chunk.js",
+    "static/css/main.7868add1.chunk.css",
+    "static/js/main.45fa1004.chunk.js"
   ]
 }
