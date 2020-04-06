@@ -1,9 +1,25 @@
 import React, { useState, useEffect } from 'react'
 import './Layout.scss'
-import { Navigation } from 'baseui/side-navigation'
+import { withStyle } from 'baseui'
+import { Navigation, StyledNavItem } from 'baseui/side-navigation'
 import { useHistory, useLocation } from 'react-router-dom'
 
 import { navs } from 'configs'
+
+const CustomStyledNavItem = withStyle(StyledNavItem, ({ $theme, $level }: any) => ({
+  paddingTop: $theme.sizing.scale300,
+  paddingBottom: $theme.sizing.scale300,
+  paddingRight: $theme.sizing.scale900,
+  // ...(!$hasItemId || $level === 1
+  ...($level === 1
+    ? {
+        textTransform: 'uppercase',
+        ...$theme.typography.font350,
+      }
+    : {
+        ...$theme.typography.font250,
+      }),
+}))
 
 const Layout: React.FC = ({ children }) => {
   const history = useHistory()
@@ -24,9 +40,13 @@ const Layout: React.FC = ({ children }) => {
           onChange={({ event, item }) => {
             event.preventDefault()
 
-            history.push(item.itemId)
+            if (location.pathname === item.itemId) return
 
+            history.push(item.itemId)
             setActiveItemId(item.itemId)
+          }}
+          overrides={{
+            NavItem: CustomStyledNavItem,
           }}
         />
       </div>
