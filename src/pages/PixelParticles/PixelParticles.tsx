@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from 'react'
 
-import App from 'apps/Basic'
+import App from 'apps/PixelParticles'
 
-const Basic: React.FC = () => {
+const PixelParticles: React.FC = () => {
   const rootRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -21,4 +21,4 @@ const Basic: React.FC = () => {
   return <div className="canvas-root" ref={rootRef}></div>
 }
 
-export default Basic
+export default PixelParticles

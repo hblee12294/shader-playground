@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react'
-import './SpikySphere.scss'
 
 import App from 'apps/SpikySphere'
 
@@ -19,7 +18,7 @@ const SpikySphere: React.FC = () => {
     }
   }, [])
 
-  return <div className="spiky-sphere" ref={rootRef}></div>
+  return <div className="canvas-root" ref={rootRef}></div>
 }
 
 export default SpikySphere

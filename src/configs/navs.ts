@@ -1,5 +1,5 @@
 import { Navs } from 'types'
-import { Basic, SpikySphere } from 'pages'
+import { Basic, SpikySphere, PixelParticles } from 'pages'
 
 const navs: Navs = [
   {
@@ -16,6 +16,17 @@ const navs: Navs = [
         itemId: '/spiky_sphere',
         exact: true,
         component: SpikySphere,
+      },
+    ],
+  },
+  {
+    title: 'Particles',
+    subNav: [
+      {
+        title: 'Pixel Particles',
+        itemId: '/pixel_particles',
+        exact: true,
+        component: PixelParticles,
       },
     ],
   },
