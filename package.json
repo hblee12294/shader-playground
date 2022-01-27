@@ -28,7 +28,7 @@
     "sass-node": "^4.11.2",
     "styletron-engine-atomic": "^1.4.6",
     "styletron-react": "^5.2.7",
-    "three": "^0.115.0",
+    "three": "^0.137.0",
     "typescript": "~3.7.2"
   },
   "scripts": {
